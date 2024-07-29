@@ -39,9 +39,9 @@ video_config = {
 # video_indexing(video_config["video_index_name"], video_config["video_SAS_url"], video_config["video_id"])
 
 # Rol del modelo
-sys_message = "You are a helpful assistant."
+sys_message = "Eres un asistente en el análisis de videos."
 # Prompt para el modelo
-user_prompt = "Describe this video:"
+user_prompt = "Describe todo lo que ves en este video:"
 
 # El contenido del tipo "acv_document_id" debe declararse en primer lugar en la lista del contenido del usuario, 
 # ya que, de lo contrario puede esperarse un comportamiento inesperado

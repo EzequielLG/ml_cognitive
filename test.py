@@ -1,6 +1,6 @@
-import os
 import requests
 import base64
+import re
 
 # Configuration
 GPT4V_KEY = "97f638d139364de48b76b2806d14ae06"
@@ -14,7 +14,6 @@ headers = {
 }
 
 # Payload for the request
-# "model": "gpt-4-vision-preview",
 payload = {
   "enhancements": {
     "ocr": {
@@ -55,9 +54,8 @@ payload = {
   "max_tokens": 800
 }
 
-GPT4V_ENDPOINT = "https://openai-teccognitive-pprd.openai.azure.com/openai/deployments/gpt0vision/chat/completions?api-version=2024-02-15-preview"
+GPT4V_ENDPOINT = "https://openai-teccognitive-pprd.openai.azure.com/openai/deployments/gpt-4-vision-preview/chat/completions?api-version=2024-02-15-preview"
 
-import re
 # Send request
 try:
     response = requests.post(GPT4V_ENDPOINT, headers=headers, json=payload)
