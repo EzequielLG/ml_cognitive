@@ -2,7 +2,6 @@ from video_processing import gpt4_turbo_vision_video_model, video_indexing
 from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 from dotenv import load_dotenv
-import os
 import re
 
 load_dotenv()
