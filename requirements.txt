@@ -1,0 +1,10 @@
+azure-identity
+azure-keyvault-secrets
+azure-core
+requests
+pillow
+matplotlib
+moviepy
+typing
+opencv-python-headless
+python-dotenv

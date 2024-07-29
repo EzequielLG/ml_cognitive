@@ -1,0 +1,182 @@
+GENERACION,ENTRADA,PROGRAMA,CAMPUS,FACTOR
+202213,IIT,BIE,Monterrey,0.1
+202213,IIT,BIE,Guadalajara,0.1
+202213,IIT,BIE,Santa Fe,0.1
+202213,IIT,BIE,Querétaro,0.1
+202213,IIT,BME,Monterrey,0.1
+202213,IIT,BME,Guadalajara,0.1
+202213,IIT,BME,Ciudad de México,0.1
+202213,IIT,BME,Puebla,0.1
+202311,IIT,BIE,Monterrey,0.1
+202311,IIT,BIE,Guadalajara,0.1
+202311,IIT,BIE,Santa Fe,0.1
+202311,IIT,BIE,Querétaro,0.1
+202311,IIT,BME,Monterrey,0.1
+202311,IIT,BME,Guadalajara,0.1
+202311,IIT,BME,Ciudad de México,0.1
+202311,IIT,BME,Puebla,0.1
+202313,IIT,BIE,Monterrey,0.1
+202313,IIT,BIE,Guadalajara,0.1
+202313,IIT,BIE,Santa Fe,0.1
+202313,IIT,BIE,Querétaro,0.1
+202313,IIT,BME,Monterrey,0.1
+202313,IIT,BME,Guadalajara,0.1
+202313,IIT,BME,Ciudad de México,0.1
+202313,IIT,BME,Puebla,0.1
+202313,NEG,BFI,Monterrey,0.1
+202313,NEG,BFI,Guadalajara,0.1
+202313,NEG,BFI,Santa Fe,0.1
+202411,IIT,BIE,Monterrey,0.1
+202411,IIT,BIE,Guadalajara,0.1
+202411,IIT,BIE,Santa Fe,0.1
+202411,IIT,BIE,Querétaro,0.1
+202411,IIT,BME,Monterrey,0.1
+202411,IIT,BME,Guadalajara,0.1
+202411,IIT,BME,Ciudad de México,0.1
+202411,IIT,BME,Puebla,0.1
+202411,NEG,BFI,Monterrey,0.1
+202411,NEG,BFI,Guadalajara,0.1
+202411,NEG,BFI,Santa Fe,0.1
+202413,IIT,BIE,Monterrey,0.1
+202413,IIT,BIE,Guadalajara,0.1
+202413,IIT,BIE,Santa Fe,0.1
+202413,IIT,BIE,Querétaro,0.1
+202413,IIT,BME,Monterrey,0.1
+202413,IIT,BME,Guadalajara,0.1
+202413,IIT,BME,Ciudad de México,0.1
+202413,IIT,BME,Puebla,0.1
+202413,NEG,BFI,Monterrey,0.1
+202413,NEG,BFI,Guadalajara,0.1
+202413,NEG,BFI,Santa Fe,0.1
+202511,IIT,BIE,Monterrey,0.1
+202511,IIT,BIE,Guadalajara,0.1
+202511,IIT,BIE,Santa Fe,0.1
+202511,IIT,BIE,Querétaro,0.1
+202511,IIT,BME,Monterrey,0.1
+202511,IIT,BME,Guadalajara,0.1
+202511,IIT,BME,Ciudad de México,0.1
+202511,IIT,BME,Puebla,0.1
+202511,NEG,BFI,Monterrey,0.1
+202511,NEG,BFI,Guadalajara,0.1
+202511,NEG,BFI,Santa Fe,0.1
+202513,IIT,BIE,Monterrey,0.1
+202513,IIT,BIE,Guadalajara,0.1
+202513,IIT,BIE,Santa Fe,0.1
+202513,IIT,BIE,Querétaro,0.1
+202513,IIT,BME,Monterrey,0.1
+202513,IIT,BME,Guadalajara,0.1
+202513,IIT,BME,Ciudad de México,0.1
+202513,IIT,BME,Puebla,0.1
+202513,NEG,BFI,Monterrey,0.1
+202513,NEG,BFI,Guadalajara,0.1
+202513,NEG,BFI,Santa Fe,0.1
+202611,IIT,BIE,Monterrey,0.1
+202611,IIT,BIE,Guadalajara,0.1
+202611,IIT,BIE,Santa Fe,0.1
+202611,IIT,BIE,Querétaro,0.1
+202611,IIT,BME,Monterrey,0.1
+202611,IIT,BME,Guadalajara,0.1
+202611,IIT,BME,Ciudad de México,0.1
+202611,IIT,BME,Puebla,0.1
+202611,NEG,BFI,Monterrey,0.1
+202611,NEG,BFI,Guadalajara,0.1
+202611,NEG,BFI,Santa Fe,0.1
+202613,IIT,BIE,Monterrey,0.1
+202613,IIT,BIE,Guadalajara,0.1
+202613,IIT,BIE,Santa Fe,0.1
+202613,IIT,BIE,Querétaro,0.1
+202613,IIT,BME,Monterrey,0.1
+202613,IIT,BME,Guadalajara,0.1
+202613,IIT,BME,Ciudad de México,0.1
+202613,IIT,BME,Puebla,0.1
+202613,NEG,BFI,Monterrey,0.1
+202613,NEG,BFI,Guadalajara,0.1
+202613,NEG,BFI,Santa Fe,0.1
+202711,IIT,BIE,Monterrey,0.1
+202711,IIT,BIE,Guadalajara,0.1
+202711,IIT,BIE,Santa Fe,0.1
+202711,IIT,BIE,Querétaro,0.1
+202711,IIT,BME,Monterrey,0.1
+202711,IIT,BME,Guadalajara,0.1
+202711,IIT,BME,Ciudad de México,0.1
+202711,IIT,BME,Puebla,0.1
+202711,NEG,BFI,Monterrey,0.1
+202711,NEG,BFI,Guadalajara,0.1
+202711,NEG,BFI,Santa Fe,0.1
+202713,IIT,BIE,Monterrey,0.1
+202713,IIT,BIE,Guadalajara,0.1
+202713,IIT,BIE,Santa Fe,0.1
+202713,IIT,BIE,Querétaro,0.1
+202713,IIT,BME,Monterrey,0.1
+202713,IIT,BME,Guadalajara,0.1
+202713,IIT,BME,Ciudad de México,0.1
+202713,IIT,BME,Puebla,0.1
+202713,NEG,BFI,Monterrey,0.1
+202713,NEG,BFI,Guadalajara,0.1
+202713,NEG,BFI,Santa Fe,0.1
+202811,IIT,BIE,Monterrey,0.1
+202811,IIT,BIE,Guadalajara,0.1
+202811,IIT,BIE,Santa Fe,0.1
+202811,IIT,BIE,Querétaro,0.1
+202811,IIT,BME,Monterrey,0.1
+202811,IIT,BME,Guadalajara,0.1
+202811,IIT,BME,Ciudad de México,0.1
+202811,IIT,BME,Puebla,0.1
+202811,NEG,BFI,Monterrey,0.1
+202811,NEG,BFI,Guadalajara,0.1
+202811,NEG,BFI,Santa Fe,0.1
+202813,IIT,BIE,Monterrey,0.1
+202813,IIT,BIE,Guadalajara,0.1
+202813,IIT,BIE,Santa Fe,0.1
+202813,IIT,BIE,Querétaro,0.1
+202813,IIT,BME,Monterrey,0.1
+202813,IIT,BME,Guadalajara,0.1
+202813,IIT,BME,Ciudad de México,0.1
+202813,IIT,BME,Puebla,0.1
+202813,NEG,BFI,Monterrey,0.1
+202813,NEG,BFI,Guadalajara,0.1
+202813,NEG,BFI,Santa Fe,0.1
+202911,IIT,BIE,Monterrey,0.1
+202911,IIT,BIE,Guadalajara,0.1
+202911,IIT,BIE,Santa Fe,0.1
+202911,IIT,BIE,Querétaro,0.1
+202911,IIT,BME,Monterrey,0.1
+202911,IIT,BME,Guadalajara,0.1
+202911,IIT,BME,Ciudad de México,0.1
+202911,IIT,BME,Puebla,0.1
+202911,NEG,BFI,Monterrey,0.1
+202911,NEG,BFI,Guadalajara,0.1
+202911,NEG,BFI,Santa Fe,0.1
+202913,IIT,BIE,Monterrey,0.1
+202913,IIT,BIE,Guadalajara,0.1
+202913,IIT,BIE,Santa Fe,0.1
+202913,IIT,BIE,Querétaro,0.1
+202913,IIT,BME,Monterrey,0.1
+202913,IIT,BME,Guadalajara,0.1
+202913,IIT,BME,Ciudad de México,0.1
+202913,IIT,BME,Puebla,0.1
+202913,NEG,BFI,Monterrey,0.1
+202913,NEG,BFI,Guadalajara,0.1
+202913,NEG,BFI,Santa Fe,0.1
+203011,IIT,BIE,Monterrey,0.1
+203011,IIT,BIE,Guadalajara,0.1
+203011,IIT,BIE,Santa Fe,0.1
+203011,IIT,BIE,Querétaro,0.1
+203011,IIT,BME,Monterrey,0.1
+203011,IIT,BME,Guadalajara,0.1
+203011,IIT,BME,Ciudad de México,0.1
+203011,IIT,BME,Puebla,0.1
+203011,NEG,BFI,Monterrey,0.1
+203011,NEG,BFI,Guadalajara,0.1
+203011,NEG,BFI,Santa Fe,0.1
+203013,IIT,BIE,Monterrey,0.1
+203013,IIT,BIE,Guadalajara,0.1
+203013,IIT,BIE,Santa Fe,0.1
+203013,IIT,BIE,Querétaro,0.1
+203013,IIT,BME,Monterrey,0.1
+203013,IIT,BME,Guadalajara,0.1
+203013,IIT,BME,Ciudad de México,0.1
+203013,IIT,BME,Puebla,0.1
+203013,NEG,BFI,Monterrey,0.1
+203013,NEG,BFI,Guadalajara,0.1
+203013,NEG,BFI,Santa Fe,0.1
