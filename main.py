@@ -1,14 +1,5 @@
 from video_processing import gpt4_turbo_vision_video_model, video_indexing
-from azure.identity import DefaultAzureCredential
-from azure.keyvault.secrets import SecretClient
-from dotenv import load_dotenv
 import re
-
-load_dotenv()
-# keyVaultName = os.getenv("KEY_VAULT_NAME")
-# KVUri = f"https://{keyVaultName}.vault.azure.net"
-# credential_kv = DefaultAzureCredential(additionally_allowed_tenants=['*'])
-# client_kv = SecretClient(vault_url=KVUri, credential=credential_kv)
 
 """
 - Debe ser un nombre único y sin espacios

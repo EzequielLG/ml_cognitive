@@ -1,28 +1,26 @@
-from dotenv import load_dotenv
+from config import (openai_api_endpoint, openai_api_key, gpt_deployment_name, vision_api_endpoint, vision_api_key, openai_api_version)
 import requests
 import json
 import time
-import os
-
-load_dotenv()
 
 def gpt4_turbo_vision_video_model(model_config, video_config):
-    # Ejemplo de la version: 2022-12-01. Todas las versiones tienen la siguiente estructura: YYYY-MM-DD
-    api_url = f"{os.getenv("OPENAI_API_ENDPOINT")}/openai/deployments/{os.getenv("GPT_DEPLOYMENT_NAME")}/extensions/chat/completions?api-version={os.getenv("OPENAI_API_VERSION")}"
+
+    api_url = f"{openai_api_endpoint}/openai/deployments/{gpt_deployment_name}/extensions/chat/completions?api-version={openai_api_version}"
     
     headers = {
         "Content-Type": "application/json",
-        "api-key": os.getenv("OPENAI_API_KEY"),
+        "api-key": openai_api_key,
         "x-ms-useragent": "Azure-GPT-4V-video/1.0.0"
     }
+
     payload = {
         "model": "gpt-4-vision-preview",
         "dataSources": [
             {
                 "type": "AzureComputerVisionVideoIndex",
                 "parameters": {
-                    "computerVisionBaseUrl": f"{os.getenv("VISION_API_ENDPOINT")}/computervision",
-                    "computerVisionApiKey": os.getenv("VISION_API_KEY"),
+                    "computerVisionBaseUrl": f"{vision_api_endpoint}/computervision",
+                    "computerVisionApiKey": vision_api_key,
                     "indexName": video_config["video_index_name"],
                     "videoUrls": [
                         video_config["video_SAS_url"]
@@ -49,9 +47,9 @@ def gpt4_turbo_vision_video_model(model_config, video_config):
         print(f"Error: {e}")
 
 def create_video_index(video_index_name):
-    url = f"{os.getenv("VISION_API_ENDPOINT")}/computervision/retrieval/indexes/{video_index_name}?api-version=2023-05-01-preview"
+    url = f"{vision_api_endpoint}/computervision/retrieval/indexes/{video_index_name}?api-version=2023-05-01-preview"
     headers = {
-        "Ocp-Apim-Subscription-Key": os.getenv("VISION_API_KEY"), 
+        "Ocp-Apim-Subscription-Key": vision_api_key, 
         "Content-Type": "application/json"
     }
     data = {
@@ -68,9 +66,9 @@ def create_video_index(video_index_name):
     return requests.put(url, headers = headers, data = json.dumps(data))
 
 def add_video_to_index(video_index_name, video_SAS_url, video_id):
-    url = f"{os.getenv("VISION_API_ENDPOINT")}/computervision/retrieval/indexes/{video_index_name}/ingestions/my-ingestion?api-version=2023-05-01-preview"
+    url = f"{vision_api_endpoint}/computervision/retrieval/indexes/{video_index_name}/ingestions/my-ingestion?api-version=2023-05-01-preview"
     headers = {
-        "Ocp-Apim-Subscription-Key": os.getenv("VISION_API_KEY"), 
+        "Ocp-Apim-Subscription-Key": vision_api_key, 
         "Content-Type": "application/json"
     }
     data = {
@@ -89,9 +87,9 @@ def add_video_to_index(video_index_name, video_SAS_url, video_id):
     return requests.put(url, headers = headers, data = json.dumps(data))
 
 def wait_for_video_adding_process(video_index_name, max_retries = 30):
-    url = f"{os.getenv("VISION_API_ENDPOINT")}/computervision/retrieval/indexes/{video_index_name}/ingestions?api-version=2023-05-01-preview"
+    url = f"{vision_api_endpoint}/computervision/retrieval/indexes/{video_index_name}/ingestions?api-version=2023-05-01-preview"
     headers = {
-        "Ocp-Apim-Subscription-Key": os.getenv("VISION_API_KEY")
+        "Ocp-Apim-Subscription-Key": vision_api_key
     }
     retries = 0
     while retries < max_retries:
