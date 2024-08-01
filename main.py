@@ -56,9 +56,7 @@ system_prompt = "Eres un asistente en el análisis de videos."
 user_prompt = "Describe las emociones las personas que están en el video, posteriormente haz un resumen de su comportamiento cognitivo."
 
 try:
-    
     response = gpt4_turbo_vision_video_model(system_prompt, user_prompt, video_index_name, video_SAS_url, video_id)
-    
     text = response["choices"][0]["message"]["content"]
     sentences = re.split(r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s", text)
     for sentence in sentences:
