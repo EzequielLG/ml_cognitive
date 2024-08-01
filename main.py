@@ -1,4 +1,4 @@
-from video_processing import video_indexing, gpt4_turbo_vision_video_model
+from video_analysis import gpt4_turbo_vision_video_model
 import re
 
 # --------------------------------
