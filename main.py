@@ -11,12 +11,12 @@ import re
 - Debe comenzar con un caracter alfanumérico
 - No debe terminar en guion medio
 """
-video_index_name = "test-video-index"
+video_index_name = "test-video-index-1"
 """
-- Video SAS (Shared Access Signature) URL, por ejemplo: 
-https://<your-storage-account-name>.blob.core.windows.net/<your-container-name>/<your-video-name>?<SAS-token>
+- Video SAS (Shared Access Signature) URL: 
+https://<storage-account-name>.blob.core.windows.net/<container-name>/<video-name>?<SAS-token>
 """
-video_SAS_url = "https://gpt4vsamples.blob.core.windows.net/videos/Microsoft%20Copilot%20Short.mp4"
+video_SAS_url = "https://stg0lang0cognitive0pprd.blob.core.windows.net/demo-elg-container/Microsoft%20Copilot%20Short.mp4?sp=r&st=2024-08-01T01:32:53Z&se=2025-08-07T09:32:53Z&spr=https&sv=2022-11-02&sr=b&sig=cN8gsri%2F1o7pYVhRKRz3y1%2B9P87CCEb6ZiVs1GThpVE%3D"
 """
 - El ID debe ser único
 """
