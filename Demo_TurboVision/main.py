@@ -38,16 +38,16 @@ videos_demo = [
 - Debe comenzar con un caracter alfanumérico
 - No debe terminar en guion medio
 """
-video_index_name = videos_demo[1]["index_name"]
+video_index_name = videos_demo[2]["index_name"]
 """
 - Video SAS (Shared Access Signature) URL: 
 https://<storage-account-name>.blob.core.windows.net/<container-name>/<video-name>?<SAS-token>
 """
-video_SAS_url = videos_demo[1]["url"]
+video_SAS_url = videos_demo[2]["url"]
 """
 - El ID debe ser único
 """
-video_id = videos_demo[1]["id"]
+video_id = videos_demo[2]["id"]
 
 # --------------------------------
 # Configuraciones del modelo de IA
